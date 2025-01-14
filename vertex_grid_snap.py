@@ -47,7 +47,7 @@ class VIEW3D_PT_snap_panel(Panel):
     bl_label = "Vertex Snapping"
     
     def draw(self, context):
-        enable = False
+        enabled = False
         if context.active_object and context.active_object.mode == 'EDIT':
             enabled = True
 
